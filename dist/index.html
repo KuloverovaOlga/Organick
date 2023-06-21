@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <title>Organick</title>
+    </head>
+    <body id = "body">
+        <div class="wrapper">
+            <div class="overlay"></div>
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__top-inner">
+                            <a class="header__logo" href="#body">
+                                <img class="header__logo-img" src="icons/logo.svg" alt="Logo" />
+                                <img class="header__logo-img-min" src="icons/logomin.svg" alt="Logo" />
+                            </a>
+                            <nav class="header__nav">
+                                <ul class="header__nav-list">
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="#body">Главная</a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="#about">О Нас</a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="#products">Товары</a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="#reviews">Отзывы</a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="#contact">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <a class="header__basket" href="#">
+                                <div class="header__basket-img"></div>
+                                <p class="header__basket-text">Корзина <span class="header__basket-num">0</span></p>
+                            </a>
+            
+                            <button class="burger" area-label="Открыть меню" aria-expanded="false">
+                                <span class="burger__line"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__body">
+                    <div class="container">
+                        <div class="header__body-inner">
+                            <div class="header__body-content">
+                                <h3 class="header__body-subtitle subtitle">Сделано природой</h3>
+                                <h1 class="header__body-title">Добро пожаловать в мир органики и природы.</h1>
+                                <button class="header__body-btn btn">
+                                    <p class="btn__text">Узнать больше</p>
+                                    <div class="btn__arrow"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <main class="main">
+                <section class="row">
+                    <div class="container">
+                        <div class="row__inner">
+                            <div class="row__cards">
+                                <img class="row__cards-img" src="images/fruits.jpg" alt="fruits" />
+                                <h5 class="row__fruits-subtitle row__subtitle">Натуральное!!</h5>
+                                <p class="row__fruits-title row__title">Фрукты прямо из сада</p>
+                            </div>
+                            <div class="row__cards">
+                                <img class="row__cards-img" src="images/vegetables.jpg" alt="vegetables" />
+                                <h5 class="row__vegetables-subtitle row__subtitle">Предложение!!</h5>
+                                <p class="row__vegetables-title row__title">Скидка 10% на свежие овощи</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="aboutus" id="about">
+                    <div class="container">
+                        <div class="aboutus__inner">
+                            <div class="aboutus__img-box">
+                                <img class="aboutus__img" src="images/aboutus.png" alt="fruits" />
+                            </div>
+                            <div class="aboutus__content">
+                                <h3 class="aboutus__subtitle subtitle">О Нас</h3>
+                                <h2 class="aboutus__title title">Мы верим - для крепкого здоровья необходимы органические продукты</h2>
+                                <p class="aboutus__desc">
+                                    Добро пожаловать в мир натурального и органического. Здесь вы можете открыть для себя щедрость природы. Наши
+                                    принципы - здоровье и забота о Вас. Мы стремимся предоставить нашим клиентам здоровую пищу без химикатов для
+                                    идеального питания.
+                                </p>
+                                <div class="aboutus__points">
+                                    <div class="aboutus__point">
+                                        <div class="aboutus__points-img aboutus__points-img1"></div>
+                                        <div class="aboutus__points-content">
+                                            <div class="aboutus__point-title">Только натуральные продукты</div>
+                                            <div class="aboutus__point-desc aboutus__desc">
+                                                Продукт, который вы заказали, будет проверен на наличие, если он есть, мы начнем переходить к
+                                                следующему шагу, или же мы попросим наших фермеров о поставке.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="aboutus__point">
+                                        <div class="aboutus__points-img aboutus__points-img2"></div>
+                                        <div class="aboutus__points-content">
+                                            <div class="aboutus__point-title">Стандарты качества</div>
+                                            <div class="aboutus__point-desc aboutus__desc">
+                                                После того, как ваш товар будет упакован, он будет доставлен в ближайший к вам населенный пункт, где
+                                                вы сможете напрямую купить заказанный вами товар.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="aboutus__btn btn">К Товарам</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products" id="products">
+                    <div class="container">
+                        <div class="products__inner">
+                            <div class="products__header">
+                                <h3 class="products__subtitle subtitle">Органика</h3>
+                                <h2 class="products__title title">Наши Товары</h2>
+                            </div>
+                            <div class="products__cards products__cards1">
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Vegetable</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/broccoli.png" alt="broccoli" />
+                                        <p class="products__name">Calabrese Broccoli</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 25.00 USD</span>
+                                            <span class="products__new-price">$ 21.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-1__5" class="rating__item" type="radio" name="rating-1" value="5" checked />
+                                                    <label for="rating-1__5" class="rating__label"></label>
+                                                    <input id="rating-1__4" class="rating__item" type="radio" name="rating-1" value="4" />
+                                                    <label for="rating-1__4" class="rating__label"></label>
+                                                    <input id="rating-1__3" class="rating__item" type="radio" name="rating-1" value="3" />
+                                                    <label for="rating-1__3" class="rating__label"></label>
+                                                    <input id="rating-1__2" class="rating__item" type="radio" name="rating-1" value="2" />
+                                                    <label for="rating-1__2" class="rating__label"></label>
+                                                    <input id="rating-1__1" class="rating__item" type="radio" name="rating-1" value="1" />
+                                                    <label for="rating-1__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Vegetable</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/corn.png" alt="corn" />
+                                        <p class="products__name">Fresh Corn</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 21.23 USD</span>
+                                            <span class="products__new-price">$ 18.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-2__5" class="rating__item" type="radio" name="rating-2" value="5" checked />
+                                                    <label for="rating-2__5" class="rating__label"></label>
+                                                    <input id="rating-2__4" class="rating__item" type="radio" name="rating-2" value="4" />
+                                                    <label for="rating-2__4" class="rating__label"></label>
+                                                    <input id="rating-2__3" class="rating__item" type="radio" name="rating-2" value="3" />
+                                                    <label for="rating-2__3" class="rating__label"></label>
+                                                    <input id="rating-2__2" class="rating__item" type="radio" name="rating-2" value="2" />
+                                                    <label for="rating-2__2" class="rating__label"></label>
+                                                    <input id="rating-2__1" class="rating__item" type="radio" name="rating-2" value="1" />
+                                                    <label for="rating-2__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Millets</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/pistachio.png" alt="pistachio" />
+                                        <p class="products__name">Dried Pistachio</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 61.00 USD</span>
+                                            <span class="products__new-price">$ 48.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-3__5" class="rating__item" type="radio" name="rating-3" value="5" checked />
+                                                    <label for="rating-3__5" class="rating__label"></label>
+                                                    <input id="rating-3__4" class="rating__item" type="radio" name="rating-3" value="4" />
+                                                    <label for="rating-3__4" class="rating__label"></label>
+                                                    <input id="rating-3__3" class="rating__item" type="radio" name="rating-3" value="3" />
+                                                    <label for="rating-3__3" class="rating__label"></label>
+                                                    <input id="rating-3__2" class="rating__item" type="radio" name="rating-3" value="2" />
+                                                    <label for="rating-3__2" class="rating__label"></label>
+                                                    <input id="rating-3__1" class="rating__item" type="radio" name="rating-3" value="1" />
+                                                    <label for="rating-3__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Vegetable</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/tomato.png" alt="tomato" />
+                                        <p class="products__name">Vegan Red Tomato</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 14.00 USD</span>
+                                            <span class="products__new-price">$ 9.37 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-4__5" class="rating__item" type="radio" name="rating-4" value="5" checked />
+                                                    <label for="rating-4__5" class="rating__label"></label>
+                                                    <input id="rating-4__4" class="rating__item" type="radio" name="rating-4" value="4" />
+                                                    <label for="rating-4__4" class="rating__label"></label>
+                                                    <input id="rating-4__3" class="rating__item" type="radio" name="rating-4" value="3" />
+                                                    <label for="rating-4__3" class="rating__label"></label>
+                                                    <input id="rating-4__2" class="rating__item" type="radio" name="rating-4" value="2" />
+                                                    <label for="rating-4__2" class="rating__label"></label>
+                                                    <input id="rating-4__1" class="rating__item" type="radio" name="rating-4" value="1" />
+                                                    <label for="rating-4__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Fruits</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/almonds.png" alt="almonds" />
+                                        <p class="products__name">Organic Almonds</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 21.00 USD</span>
+                                            <span class="products__new-price">$ 18.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-5__5" class="rating__item" type="radio" name="rating-5" value="5" checked />
+                                                    <label for="rating-5__5" class="rating__label"></label>
+                                                    <input id="rating-5__4" class="rating__item" type="radio" name="rating-5" value="4" />
+                                                    <label for="rating-5__4" class="rating__label"></label>
+                                                    <input id="rating-5__3" class="rating__item" type="radio" name="rating-5" value="3" />
+                                                    <label for="rating-5__3" class="rating__label"></label>
+                                                    <input id="rating-5__2" class="rating__item" type="radio" name="rating-5" value="2" />
+                                                    <label for="rating-5__2" class="rating__label"></label>
+                                                    <input id="rating-5__1" class="rating__item" type="radio" name="rating-5" value="1" />
+                                                    <label for="rating-5__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Millets</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/hazelnut.png" alt="hazelnut" />
+                                        <p class="products__name">Brown Hazelnut</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 43.00 USD</span>
+                                            <span class="products__new-price">$ 34.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-6__5" class="rating__item" type="radio" name="rating-6" value="5" checked />
+                                                    <label for="rating-6__5" class="rating__label"></label>
+                                                    <input id="rating-6__4" class="rating__item" type="radio" name="rating-6" value="4" />
+                                                    <label for="rating-6__4" class="rating__label"></label>
+                                                    <input id="rating-6__3" class="rating__item" type="radio" name="rating-6" value="3" />
+                                                    <label for="rating-6__3" class="rating__label"></label>
+                                                    <input id="rating-6__2" class="rating__item" type="radio" name="rating-6" value="2" />
+                                                    <label for="rating-6__2" class="rating__label"></label>
+                                                    <input id="rating-6__1" class="rating__item" type="radio" name="rating-6" value="1" />
+                                                    <label for="rating-6__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="reviews" id="reviews">
+                    <div class="container">
+                        <div class="reviews__inner">
+                            <div class="reviews__header">
+                                <h3 class="reviews__subtitle subtitle">Отзывы</h3>
+                                <h2 class="reviews__title title">Что говорят наши клиенты?</h2>
+                            </div>
+                            <div class="reviews__item">
+                                <img class="reviews__customer-photo" src="images/customer.jpg" alt="customer photo" />
+                                <div class="reviews__customer-rating">★★★★★</div>
+                                <p class="reviews__customer-review">
+                                    Продукты экологически чистые, их качество чрезвычайно высокое, а вкус отправляет меня назад в детство, когда мы
+                                    выращивали их самостоятельно. Обслуживание на высоте.
+                                </p>
+                                <p class="reviews__customer-name">Екатерина Устапенко</p>
+                                <p class="reviews__customer-position">Покупатель</p>
+                                <div class="reviews__line line"></div>
+                            </div>
+
+                            <div class="reviews__row">
+                                <div class="reviews__row-item">
+                                    <span class="reviews__row-num">100%</span>
+                                    <span class="reviews__row-text">Органика</span>
+                                </div>
+                                <div class="reviews__row-item">
+                                    <span class="reviews__row-num">285</span>
+                                    <span class="reviews__row-text">Сортов</span>
+                                </div>
+                                <div class="reviews__row-item">
+                                    <span class="reviews__row-num">385+</span>
+                                    <span class="reviews__row-text">Органических садов</span>
+                                </div>
+                                <div class="reviews__row-item">
+                                    <span class="reviews__row-num">25+</span>
+                                    <span class="reviews__row-text">Лет практики</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products2">
+                    <div class="container">
+                        <div class="products2__inner">
+                            <div class="products2__header">
+                                <div class="products2__title-inner">
+                                    <h3 class="products2__subtitle subtitle">Вам может быть интересно</h3>
+                                    <h2 class="products2__title title">Мы предлагаем Вам наши натуральные продукты</h2>
+                                </div>
+                                <button class="products2__btn btn">Ко всем товарам</button>
+                            </div>
+                            <div class="products__cards products__cards2">
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Vegetable</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/tomato.png" alt="tomato" />
+                                        <p class="products__name">Vegan Red Tomato</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 14.00 USD</span>
+                                            <span class="products__new-price">$ 9.37 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-7__5" class="rating__item" type="radio" name="rating-7" value="5" checked />
+                                                    <label for="rating-7__5" class="rating__label"></label>
+                                                    <input id="rating-7__4" class="rating__item" type="radio" name="rating-7" value="4" />
+                                                    <label for="rating-7__4" class="rating__label"></label>
+                                                    <input id="rating-7__3" class="rating__item" type="radio" name="rating-7" value="3" />
+                                                    <label for="rating-7__3" class="rating__label"></label>
+                                                    <input id="rating-7__2" class="rating__item" type="radio" name="rating-7" value="2" />
+                                                    <label for="rating-7__2" class="rating__label"></label>
+                                                    <input id="rating-7__1" class="rating__item" type="radio" name="rating-7" value="1" />
+                                                    <label for="rating-7__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Fruits</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/almonds.png" alt="almonds" />
+                                        <p class="products__name">Organic Almonds</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 21.00 USD</span>
+                                            <span class="products__new-price">$ 18.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-8__5" class="rating__item" type="radio" name="rating-8" value="5" checked />
+                                                    <label for="rating-8__5" class="rating__label"></label>
+                                                    <input id="rating-8__4" class="rating__item" type="radio" name="rating-8" value="4" />
+                                                    <label for="rating-8__4" class="rating__label"></label>
+                                                    <input id="rating-8__3" class="rating__item" type="radio" name="rating-8" value="3" />
+                                                    <label for="rating-8__3" class="rating__label"></label>
+                                                    <input id="rating-8__2" class="rating__item" type="radio" name="rating-8" value="2" />
+                                                    <label for="rating-8__2" class="rating__label"></label>
+                                                    <input id="rating-8__1" class="rating__item" type="radio" name="rating-8" value="1" />
+                                                    <label for="rating-8__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="products__card">
+                                    <div class="products__kind"><span class="products__kind-text">Vegetable</span></div>
+                                    <a href="#">
+                                        <img class="products__img" src="images/corn.png" alt="corn" />
+                                        <p class="products__name">Fresh Corn</p>
+                                    </a>
+                                    <div class="line"></div>
+                                    <div class="products__desc">
+                                        <div class="products__price">
+                                            <span class="products__old-price">$ 21.23 USD</span>
+                                            <span class="products__new-price">$ 18.00 USD</span>
+                                            <div class="rating">
+                                                <div class="rating__items">
+                                                    <input id="rating-9__5" class="rating__item" type="radio" name="rating-9" value="5" checked />
+                                                    <label for="rating-9__5" class="rating__label"></label>
+                                                    <input id="rating-9__4" class="rating__item" type="radio" name="rating-9" value="4" />
+                                                    <label for="rating-9__4" class="rating__label"></label>
+                                                    <input id="rating-9__3" class="rating__item" type="radio" name="rating-9" value="3" />
+                                                    <label for="rating-9__3" class="rating__label"></label>
+                                                    <input id="rating-9__2" class="rating__item" type="radio" name="rating-9" value="2" />
+                                                    <label for="rating-9__2" class="rating__label"></label>
+                                                    <input id="rating-9__1" class="rating__item" type="radio" name="rating-9" value="1" />
+                                                    <label for="rating-9__1" class="rating__label"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="eco-friendly">
+                    <div class="container">
+                        <div class="eco-friendly__inner">
+                            <img class="eco-friendly__img" src="images/eco-frendlibg.jpg" alt="field" />
+                            <div class="eco-friendly__content">
+                                <div class="eco-friendly__header">
+                                    <h3 class="eco-friendly__subtitle subtitle">Экологично</h3>
+                                    <h2 class="eco-friendly__title title">От нашей фермы до вашего дома.</h2>
+                                </div>
+                                <div class="eco-friendly__points">
+                                    <div class="eco-friendly__point">
+                                        <p class="eco-friendly__points-title">Выберите Ваши продукты</p>
+                                        <p class="eco-friendly__points-subtitle">В нашем каталоге Вы точно найдете то, что Вам нужно.</p>
+                                    </div>
+                                    <div class="eco-friendly__point">
+                                        <p class="eco-friendly__points-title">Фермеры произведут то, что Вам нужно</p>
+                                        <p class="eco-friendly__points-subtitle">
+                                            Продукт, который вы заказали, будет проверен на наличие, если он есть, мы начнем переходить к следующему
+                                            шагу, или же мы попросим наших фермеров о поставке.
+                                        </p>
+                                    </div>
+                                    <div class="eco-friendly__point">
+                                        <p class="eco-friendly__points-title">У Нас также есть Доставка</p>
+                                        <p class="eco-friendly__points-subtitle">
+                                            Если вам неудобно идти к нашей ближайшей точке, мы можем доставить Ваш товар Прямо к Вашему порогу.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="row2">
+                    <div class="container">
+                        <div class="row2__inner">
+                            <div class="row2__cards">
+                                <div class="row2__card">
+                                    <img class="row2__card-img" src="images/juice.jpg" alt="juice" />
+                                    <h5 class="row2__card-text">Фруктовые Соки</h5>
+                                </div>
+                                <div class="row2__card">
+                                    <img class="row2__card-img" src="images/food.jpg" alt="food" />
+                                    <h5 class="row2__card-text">Натуральные продукты</h5>
+                                </div>
+                                <div class="row2__card">
+                                    <img class="row2__card-img" src="images/cookies.jpg" alt="cookies" />
+                                    <h5 class="row2__card-text">Ореховое Печенье</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="container">
+                        <div class="news__inner">
+                            <div class="news__header">
+                                <div class="news__header-inner">
+                                    <h3 class="news__subtitle subtitle">Новости</h3>
+                                    <h2 class="news__title title">Откройте для себя Последние данные об органических продуктах</h2>
+                                </div>
+                                <button class="news__btn btn">Больше новостей</button>
+                            </div>
+                            <div class="news__posts">
+                                <div class="news__post">
+                                    <img class="news__post-img" src="images/post1.jpg" alt="salad" />
+                                    <a href="#" class="news__post-content">
+                                        <p class="news__post-author">Кристина Герцен</p>
+                                        <p class="news__post-title">Все, что Вам нужно знать о натуральных продуктах</p>
+                                        <p class="news__desc">Органическое земледелие — это способ познания реального мира.</p>
+                                        <div class="news__link">
+                                            <p class="news__link-text">Узнать больше</p>
+                                            <div class="news__link-arrow"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news__post">
+                                    <img class="news__post-img" src="images/post2.jpg" alt="tomato" />
+                                    <a href="#" class="news__post-content">
+                                        <p class="news__post-author">Александр Целищев</p>
+                                        <p class="news__post-title">Органические фрукты: удивительные факты и преимущества</p>
+                                        <p class="news__desc">Мир природы вырос на принципах здоровья, экологии и заботы.</p>
+                                        <div class="news__link">
+                                            <p class="news__link-text">Узнать больше</p>
+                                            <div class="news__link-arrow"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="subscribe">
+                    <div class="container">
+                        <div class="subscribe__inner">
+                            <h3 class="subscribe__title">Подпишитесь на нашу рассылку</h3>
+                            <form class="subscribe__form">
+                                <input class="subscribe__email" type="email" required placeholder="Введите Ваш email адрес" />
+                                <button class="subscribe__btn btn" type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer" id="contact">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__body">
+                            <div class="footer__contact">
+                                <ul class="footer__contact-list">
+                                    <li class="footer__contact-item">
+                                        <p class="footer__contact-title footer__title">Контакты</p>
+                                    </li>
+                                    <li class="footer__contact-item">
+                                        <p class="footer__contact-item-title">Email</p>
+                                        <a href="mailto:needhelp@organick.com" class="footer__text footer__text-hover">needhelp@organick.com</a>
+                                    </li>
+                                    <li class="footer__contact-item">
+                                        <p class="footer__contact-item-title">Телефон</p>
+                                        <a href="tel:+79264188585" class="footer__text footer__text-hover">+7 (926) 418 85 85</a>
+                                    </li>
+                                    <li class="footer__contact-item">
+                                        <p class="footer__contact-item-title">Адрес</p>
+                                        <p href="#" class="footer__text">Мичуринский проспект 34</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__sosial">
+                                <a class="footer__logo" href="#body">
+                                    <img src="icons/logo.svg" alt="Logo" />
+                                </a>
+                                <p class="footer__text footer__sosial-text">
+                                    Мы популярная фермерская компания, стремящаяся стать лидером в индустрии органических продуктов питания.
+                                </p>
+                                <ul class="footer__sosial-list">
+                                    <li class="footer__sosial-item">
+                                        <a class="footer__sosial-item-link footer__sosial-item-facebook" href="#"></a>
+                                    </li>
+                                    <li class="footer__sosial-item">
+                                        <a class="footer__sosial-item-link footer__sosial-item-twitter" href="#"></a>
+                                    </li>
+                                    <li class="footer__sosial-item">
+                                        <a class="footer__sosial-item-link footer__sosial-item-instagram" href="#"></a>
+                                    </li>
+                                    <li class="footer__sosial-item">
+                                        <a class="footer__sosial-item-link footer__sosial-item-pinterest" href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__utility">
+                                <ul class="footer__utility-list">
+                                    <li class="footer__utility-item">
+                                        <p class="footer__utility-title footer__title">Вспомогательные страницы</p>
+                                    </li>
+                                    <li class="footer__utility-item">
+                                        <a class="footer__ilem-link footer__text footer__text-hover" href="#">Как купить</a>
+                                    </li>
+                                    <li class="footer__utility-item">
+                                        <a class="footer__ilem-link footer__text footer__text-hover" href="#">Доставка</a>
+                                    </li>
+                                    <li class="footer__utility-item">
+                                        <a class="footer__ilem-link footer__text footer__text-hover" href="#">О компании</a>
+                                    </li>
+                                    <li class="footer__utility-item">
+                                        <a class="footer__ilem-link footer__text footer__text-hover" href="#">Гарантия качества</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+
+        <script src="js/script.min.js"></script>
+    </body>
+</html>

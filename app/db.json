@@ -1,0 +1,58 @@
+{
+    "menu": [
+        {
+            "kind": "Овощи",
+            "img": "images/broccoli.png",
+            "altimg": "broccoli",
+            "name": "Калабрийская брокколи",
+            "oldPrice": 25,
+            "discont": 10,
+            "id": 1
+        },
+        {
+            "kind": "Овощи",
+            "img": "images/corn.png",
+            "altimg": "corn",
+            "name": "Свежая кукуруза",
+            "oldPrice": 21.23,
+            "discont": 10,
+            "id": 2
+        },
+        {
+            "kind": "Орехи",
+            "img": "images/pistachio.png",
+            "altimg": "pistachio",
+            "name": "Сушеные фисташки",
+            "oldPrice": 61.00,
+            "discont": 10,
+            "id": 3
+        },
+        {
+            "kind": "Овощи",
+            "img": "images/tomato.png",
+            "altimg": "tomato",
+            "name": "Веганский красный помидор",
+            "oldPrice": 14.00,
+            "discont": 10,
+            "id": 4
+        },
+        {
+            "kind": "Фрукты",
+            "img": "images/almonds.png",
+            "altimg": "almonds",
+            "name": "Натуральный миндаль",
+            "oldPrice": 21.00,
+            "discont": 10,
+            "id": 5
+        },
+        {
+            "kind": "Орехи",
+            "img": "images/hazelnut.png",
+            "altimg": "hazelnut",
+            "name": "Коричневый фундук",
+            "oldPrice": 43.00,
+            "discont": 10,
+            "id": 6
+        }
+    ]
+}
