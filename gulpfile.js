@@ -24,14 +24,14 @@ function pages() {
 }
 
 function styles() {
-    return src('app/scss/*.scss')
-        .pipe(concat('style.min.css)'))
-        .pipe(scss())
-        .pipe(gcmq())
-        .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version'] }))
-        .pipe(scss({ outputStyle: 'compressed' }))
-        .pipe(dest('dist/css'))
-        .pipe(browserSync.stream());
+    return src('app/scss/style.scss')
+    .pipe(concat('style.min.css'))
+    .pipe(scss())
+    .pipe(gcmq())
+    .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version'] }))
+    .pipe(scss({ outputStyle: 'compressed' }))
+    .pipe(dest('dist/css'))
+    .pipe(browserSync.stream());
 }
 
 function scripts() {
