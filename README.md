@@ -28,9 +28,7 @@
 ---
 
 
-![GifMobile](readme/organick_a4.gif) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifMobile](readme/organick_axr.gif)
-
-![GifMobile](readme/organick_p.gif)
+![GifMobile](readme/organick_a4.gif) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GifMobile](readme/organick_p.gif)
 
 ---
 
